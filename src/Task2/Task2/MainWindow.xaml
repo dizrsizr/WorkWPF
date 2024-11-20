@@ -1,0 +1,15 @@
+﻿<Window x:Class="МногооконноеПриложение.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ало Tasks" Height="200" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Переводчик" HorizontalAlignment="Left" Margin="35,15,0,0" VerticalAlignment="Top" Width="120" Click="OpenTranslator_Click" Grid.Column="1"/>
+        <Button Content="Калькулятор" HorizontalAlignment="Left" Margin="35,50,0,0" VerticalAlignment="Top" Width="120" Click="OpenCalculator_Click" Grid.Column="1"/>
+        <Button Content="Проверка Диапазона" HorizontalAlignment="Left" Margin="35,87,0,0" VerticalAlignment="Top" Width="120" Click="OpenRangeCheck_Click" Grid.Column="1"/>
+        <Button Content="Тайное Сообщение" HorizontalAlignment="Left" Margin="35,121,0,0" VerticalAlignment="Top" Width="120" Click="OpenSecretMessage_Click" Grid.Column="1"/>
+    </Grid>
+</Window>
